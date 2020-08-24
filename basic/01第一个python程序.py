@@ -1,16 +1,16 @@
 # coding=utf-8
 # -*- coding:utf-8 -*-
-'''
+"""
 Created on 2018年10月9日
 
 @author: Administrator
-'''
+"""
 print("hello python")
 
 num1 = 1
 num2 = 2
 print("%d+%d=%d" % (num1, num2, num1 + num2))
-print("hello,%s" % ("world"))
+print("hello,%s" % "world")
 print('The quick brown fox', 'jumps over', 'the lazy dog')
 print(True)
 print(False)
