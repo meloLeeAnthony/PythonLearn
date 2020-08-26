@@ -4,5 +4,10 @@ Python是动态类型语言：变量不需要显示声明类型。根据变量�
 """
 a = 10
 print(type(a))
+a = 1234_5678
+print(a)
+print(type(a))
+a = 10.3
+print(type(a))
 a = "a"
 print(type(a))
