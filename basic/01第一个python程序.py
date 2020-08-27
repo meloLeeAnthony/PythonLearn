@@ -28,10 +28,10 @@ d = (85 - 72) / 72 * 100
 print(d)
 print("%.1f%%" % d)
 
-a = input("请输入数字：")
-print(a)
+e = input("请输入数字：")
+print(e)
 print(10 // 3.0)
 print(2 ** 3)
-a = 10
-a += 1
-print(a)
+e = 10
+e += 1
+print(e)
