@@ -12,8 +12,12 @@ num2 = 2
 print("%d+%d=%d" % (num1, num2, num1 + num2))
 print("hello,%s" % "world")
 print('The quick brown fox', 'jumps over', 'the lazy dog')
+
+# 布尔值实际上也属于整型，True就相当于1，False就相当于0
+print(1 + True)
 print(True)
 print(False)
+
 a = "hello"
 b = 'world'
 c = '123'
