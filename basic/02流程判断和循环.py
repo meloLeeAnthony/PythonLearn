@@ -1,9 +1,9 @@
 # coding=utf-8
-'''
+"""
 Created on 2018年10月9日
 
 @author: Administrator
-'''
+"""
 age = input("请输入年龄：")
 age = int(age)
 if age > 20:
@@ -20,11 +20,11 @@ else:
     pass
 
 i = 1
-sum = 0
+total = 0
 while i <= 100:
-    sum += i
+    total += i
     i += 1
-print(sum)
+print(total)
 
 # 九九乘法表
 n = 1
@@ -37,10 +37,10 @@ while n < 10:
         c += 1
     n += 1
 
-sum = 0
+total = 0
 for i in range(1, 101):
-    sum += i
-print(sum)
+    total += i
+print(total)
 
 for j in "abcdefg":
     print(j)
