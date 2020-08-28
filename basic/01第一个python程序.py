@@ -35,3 +35,6 @@ print(2 ** 3)
 e = 10
 e += 1
 print(e)
+
+result = 1 < 2 < 3  # 相当于 1 < 2 and 2 < 3
+print(result)
