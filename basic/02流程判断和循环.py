@@ -26,17 +26,6 @@ while i <= 100:
     i += 1
 print(total)
 
-# 九九乘法表
-n = 1
-while n < 10:
-    c = 1
-    while c <= n:
-        print("%d*%d=%d" % (c, n, c * n), end="\t")
-        if c == n:
-            print()
-        c += 1
-    n += 1
-
 total = 0
 for i in range(1, 101):
     total += i
