@@ -1,9 +1,9 @@
 # coding=utf-8
-'''
+"""
 Created on 2018年10月9日
 
 @author: Administrator
-'''
+"""
 a = ["a", "b", "c", 12, 12.34, "a", "v", "b", "a"]
 print(a)
 print(len(a))
