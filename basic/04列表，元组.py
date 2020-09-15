@@ -9,6 +9,7 @@ print(a)
 print(len(a))
 print(a[-1])
 print(a[::-1])
+
 a.append("e")
 print(a)
 b = ["aa", "bb", "cc"]
@@ -23,10 +24,12 @@ print(a)
 a.pop()
 a.remove("hello")
 print(a)
+
 if "a" not in a:
     print("不存在")
 else:
     print("存在")
+
 # print(a.index("f",2,6))
 print(a.count("a"))
 # list存放  有序，不唯一的数据，数据类型不必一致
