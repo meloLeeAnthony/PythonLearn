@@ -38,10 +38,14 @@ c = [1, 3, 5, 2, 4]
 print(c)
 c.sort()
 print(c)
+c.sort(reverse=True)
+print(c)
 c.reverse()
 print(c)
+
 for i, chrs in enumerate(c):
     print("下标：%d----值：%s" % (i, chrs))
+
 c[2] = "abcdefg"
 print(c)
 
