@@ -31,5 +31,6 @@ for i in range(1, 101):
     total += i
 print(total)
 
+# 所有的序列for循环都可以遍历
 for j in "abcdefg":
     print(j)
