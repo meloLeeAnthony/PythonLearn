@@ -156,3 +156,16 @@ nulls = set()
 print(nulls, type(nulls))
 nns = set('melo')
 print(nns, type(nns))
+
+s1 = {1, 2, 3}
+s2 = {2, 3, 4}
+# set交集运算
+result1 = s1 & s2
+# set并集运算
+result2 = s1 | s2
+# set差集运算
+result3 = s1 - s2
+# set异或集运算
+result4 = s1 ^ s2
+# set子集判断
+result5 = (s1 <= s2)

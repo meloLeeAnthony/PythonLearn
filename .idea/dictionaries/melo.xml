@@ -2,6 +2,8 @@
   <dictionary name="melo">
     <words>
       <w>abcdefg</w>
+      <w>chrs</w>
+      <w>melo</w>
     </words>
   </dictionary>
 </component>
