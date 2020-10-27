@@ -145,5 +145,14 @@ for item in person.items():
 for key, value in person.items():
     print(key, value)
 
-a = set([1, 2, 3, 4])
-print(a)
+# set
+# 使用{...}创建集合
+s = {1, 2, 3, 4}
+print(s, type(s))
+ts = {(1, 2, 3), (2, 4)}
+print(ts, type(ts))
+# 使用set()创建集合
+nulls = set()
+print(nulls, type(nulls))
+nns = set('melo')
+print(nns, type(nns))
