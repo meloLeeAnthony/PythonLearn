@@ -1,34 +1,54 @@
-'''
+"""
 Created on 2018年10月9日
 
 @author: Administrator
-'''
+"""
 
 
 def test():
+    """
+        简单打印
+    """
     print("python真简单")
 
 
 test()
 
 
-def add(a, b):
-    print(a + b)
+def add(paramA, paramB):
+    """
+        加法方法
+    :param paramA: 参数a
+    :param paramB: 参数b
+    """
+    print(paramA + paramB)
 
 
 add(1, 2)
 
 
-def add2(a, b=2):
-    print(a + b)
+def add2(paramA, paramB=2):
+    """
+        加法方法
+    :param paramA: 参数a
+    :param paramB: 参数b，默认值为2
+    """
+    print(paramA + paramB)
 
 
 add2(1)
 
 
-def function(a, b, *args, **kwargs):
-    print(a)
-    print(b)
+def function(paramA, paramB, *args, **kwargs):
+    """
+        可变参数的函数
+    :param paramA: 参数a
+    :param paramB: 参数b
+    :param args: 将多个参数收集到一个“元组”对象中，存放所有未命名的变量参数
+    :param kwargs: 将多个参数收集到一个“字典”对象中，存放所有命名参数
+    """
+    print(paramA)
+    print(paramB)
     print(*args)
     for i in kwargs.items():
         print(i)
@@ -38,19 +58,29 @@ function(1, 2, 3, 4, 5, 6, 7, 8, m=7, x=9, y=10)
 
 
 def add3(a):
+    """
+        测试形参是对象的方法
+    :param a:
+    """
     a += a
 
 
-# a=10
-# a=[1,2]
+# a = 10
+# a = [1, 2]
 a = (1, 2)
 add3(a)
 print(a)
 
 
-def func(a, b):
-    c = a + b
-    return c
+def func(paramA, paramB):
+    """
+        测试函数作为入参
+    :param paramA: 参数a
+    :param paramB: 参数b
+    :return:
+    """
+    returnC = paramA + paramB
+    return returnC
 
 
 print(func(2, 3))
@@ -110,6 +140,7 @@ def test():
 
 
 test()
+
 
 def createNum(a):
     arr = []
