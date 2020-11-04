@@ -1,6 +1,6 @@
 """
-Created on 2018年10月9日
-
+    Created on 2018年10月9日
+    函数示例
 @author: Administrator
 """
 
@@ -57,12 +57,12 @@ def function(paramA, paramB, *args, **kwargs):
 function(1, 2, 3, 4, 5, 6, 7, 8, m=7, x=9, y=10)
 
 
-def add3(a):
+def add3(objectParam):
     """
         测试形参是对象的方法
-    :param a:
+    :param objectParam: 对象形参
     """
-    a += a
+    objectParam += objectParam
 
 
 # a = 10
