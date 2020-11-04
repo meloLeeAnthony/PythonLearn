@@ -86,6 +86,24 @@ def func(paramA, paramB):
 print(func(2, 3))
 
 
+def funUnpack(paramA, paramB, paramC):
+    """
+        参数的解包/拆包
+    :param paramA: 参数a
+    :param paramB: 参数b
+    :param paramC: 参数c
+    """
+    print('paramA=', paramA)
+    print('paramB=', paramB)
+    print('paramC=', paramC)
+
+
+t = (10, 20, 30)
+funUnpack(*t)
+d = {'paramA': 10, 'paramB': 20, 'paramC': 30}
+funUnpack(**d)
+
+
 def func2(a):
     b = 100 + a
     c = 200 + a
