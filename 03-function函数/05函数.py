@@ -132,12 +132,16 @@ b, c = func2(200)
 print(b)
 print(c)
 
+
 a = 10
 
 
 def func():
+    """
+    测试修改全局变量 global
+    """
     global a
-    a = a + 10
+    a += 10
     print(a)
 
 
@@ -148,6 +152,9 @@ print(id(a))
 
 
 def test1():
+    """
+    Global测试：局部变量
+    """
     a = 10
     print(a)
     a = 20
@@ -155,13 +162,16 @@ def test1():
 
 
 def test2():
+    """
+    Global测试：全局变量
+    """
     global a
     a += 100
     print(a)
     print(id(a))
 
 
-# test1()
+test1()
 test2()
 print(a)
 print(id(a))
