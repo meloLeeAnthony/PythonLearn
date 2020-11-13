@@ -7,9 +7,9 @@
 from collections.abc import Iterator
 
 '''
- map(func, *iterables) --> map object
+ map(func, *iterables) --> map 04-object面向对象
 
-    Make an iterator that computes the function using arguments from
+    Make an iterator that computes the 03-function函数 using arguments from
     each of the iterables.  Stops when the shortest iterable is exhausted.
 '''
 # 一个函数f(x)=x2，要把这个函数作用在一个list [1, 2, 3, 4, 5, 6, 7, 8, 9]

@@ -1,4 +1,5 @@
 import turtle
+
 t = turtle.Pen()
 my_colors = ("red", "green", "yellow", "black")
 t.width(4)

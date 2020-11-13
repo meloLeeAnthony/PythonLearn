@@ -17,6 +17,6 @@ def fun2(thread_name, delay):
 if __name__ == '__main__':
     print('开始运行')
     # 创建线程
-    _thread.start_new_thread(fun1, ('thread多线程-1', 3))
-    _thread.start_new_thread(fun2, ('thread多线程-2', 3))
+    _thread.start_new_thread(fun1, ('13-thread多线程-1', 3))
+    _thread.start_new_thread(fun2, ('13-thread多线程-2', 3))
     time.sleep(7)

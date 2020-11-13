@@ -26,8 +26,8 @@ class MyThread(threading.Thread):
 
 if __name__ == '__main__':
     print('开始运行')
-    t1 = MyThread(fun1, 'thread多线程-1', (2,))
-    t2 = MyThread(fun2, 'thread多线程-2', (4,))
+    t1 = MyThread(fun1, '13-thread多线程-1', (2,))
+    t2 = MyThread(fun2, '13-thread多线程-2', (4,))
     t1.start()
     t2.start()
     t1.join()

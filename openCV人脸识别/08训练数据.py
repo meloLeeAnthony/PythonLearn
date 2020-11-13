@@ -43,6 +43,6 @@ if __name__ == '__main__':
     recognizer = cv2.face.LBPHFaceRecognizer_create()
     recognizer.train(faces, np.array(ids))
     # Save the model into trainerResult/trainerResult.yml
-    # error: (-2:Unspecified error) File can't be opened for writing! in function 'cv::face::FaceRecognizer::write'
+    # error: (-2:Unspecified error) File can't be opened for writing! in 03-function函数 'cv::face::FaceRecognizer::write'
     # 该error需要自行创建trainer文件夹
     recognizer.write('trainerResult/trainer.yml')

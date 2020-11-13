@@ -1,7 +1,7 @@
 '''
- map(func, *iterables) --> map object
+ map(func, *iterables) --> map 04-object面向对象
 
-    Make an iterator that computes the function using arguments from
+    Make an iterator that computes the 03-function函数 using arguments from
     each of the iterables.  Stops when the shortest iterable is exhausted.
 '''
 integ = 10
