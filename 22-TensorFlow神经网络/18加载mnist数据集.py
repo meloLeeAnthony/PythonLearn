@@ -17,7 +17,7 @@ validation_y = mnist.validation.labels
 # 加载测试集标签
 test_y = mnist.test.labels
 print('train_x.shape:', train_x.shape, 'train_y.shape:', train_y.shape)
-# 查看训练集中第一个样本的内容和标签
+# 查看训练集中第二个样本的内容和标签
 print(train_x[1])
 print(train_y[1])
 # 获取训练集数据的前100个
