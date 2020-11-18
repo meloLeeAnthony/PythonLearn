@@ -179,19 +179,25 @@ print(id(a))
 b = 10
 
 
-def test():
-    c = b
-    print(b)
-    print(c)
-
-
-test()
-
-
 def createNum(a):
+    """
+    RecursionError: maximum recursion depth exceeded
+
+    import sys
+    sys.setrecursionlimit(1000000) # 设置递归深度为一百万
+
+    测试调用递归函数
+    :param a:
+    :return:
+    """
     arr = []
 
     def getNum(b):
+        """
+        测试递归函数调用
+        :param b:
+        :return:
+        """
         if b < 2:
             return 1
         else:
@@ -203,6 +209,7 @@ def createNum(a):
 
 
 createNum(20)
+
 
 sum = lambda a, b, c: a + b + c
 print(sum(1, 2, 3))
