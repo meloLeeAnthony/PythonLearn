@@ -1,11 +1,11 @@
-# coding=utf-8
-import traceback  # 异常模块
-
-'''
+"""
 什么是高阶函数？
 1.变量可以指向函数
 2.函数名也是变量
-'''
+"""
+
+# coding=utf-8
+import traceback  # 异常模块
 
 # 变量可以指向函数
 # 求-10的绝对值
@@ -21,7 +21,7 @@ print(f(-10))
 # 函数名其实就是指向函数的变量。对于abs()这个函数，我们可以把函数名abs看成是一个变量，它指向计算绝对值的函数
 
 try:
-    abs = 10
+    # abs = 10
     print(abs(-10))
 except TypeError as e:
     traceback.print_exc()
@@ -34,8 +34,14 @@ except TypeError as e:
 '''
 
 
-# 函数的入参function为函数
 def add(x, y, function):
+    """
+    函数的入参function为函数
+    :param x:
+    :param y:
+    :param function:
+    :return:
+    """
     return function(x) + function(y)  # abs(-10)+abs(5)
 
 
