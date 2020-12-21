@@ -2,8 +2,15 @@
   <dictionary name="melo">
     <words>
       <w>abcdefg</w>
+      <w>arrs</w>
       <w>chrs</w>
+      <w>ieters</w>
+      <w>integ</w>
+      <w>iters</w>
+      <w>lisi</w>
       <w>melo</w>
+      <w>wangwu</w>
+      <w>zhangsan</w>
     </words>
   </dictionary>
 </component>
