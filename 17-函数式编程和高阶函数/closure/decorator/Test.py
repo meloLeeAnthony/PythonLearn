@@ -11,9 +11,9 @@ def mul(a, b):
 
 
 def printLog(func):
-    def printLogImpl(a, b):
+    def printLogImpl(*args, **kvargs):
         print("开始计算")
-        result = func(a, b)
+        result = func(*args, **kvargs)
         print('计算结束，结果为: %d' % result)
 
     return printLogImpl
@@ -28,3 +28,11 @@ def mul1(a, b):
 
 
 mul1(2, 3)
+
+
+@printLog
+def sum1():
+    return 3 * 6
+
+
+sum1()
