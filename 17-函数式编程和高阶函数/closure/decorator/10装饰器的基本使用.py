@@ -1,6 +1,6 @@
 """
 使用装饰器 完成不修改fun1() fun2()函数的源码，添加输出日志信息
-   装饰器就是一种闭包，它可以是闭包的访问方式更简单
+   装饰器就是一种闭包，它可以使闭包的访问方式更简单
 """
 import time
 import traceback
@@ -27,7 +27,16 @@ def writeLog(func):
 
 # 使用闭包
 def funcOut(func):
+    """
+    闭包外层函数
+    :param func:
+    :return:
+    """
+
     def funcIn():
+        """
+        闭包内层返回函数
+        """
         writeLog(func)
         func()
 
