@@ -5,6 +5,7 @@ Created on 2018年10月10日
 """
 
 
+# <class '__main__.Dog'>
 class Dog(object):
     """
     面向对象的对象
@@ -38,6 +39,8 @@ dog = Dog("haha", 12)
 dog.run()
 dog2 = Dog("heihei", 3)
 dog2.run()
+
+print(isinstance(dog2, Dog))
 print(dog.name)
 print(dog.age)
 print(dog2.age)
