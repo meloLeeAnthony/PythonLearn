@@ -1,16 +1,23 @@
-'''
+"""
 Created on 2018年10月10日
 
 @author: Administrator
-'''
+"""
 
 
 class Dog(object):
+    """
+    面向对象的对象
+    """
 
-    def run(self):
+    @staticmethod
+    def run():
+        """
+        面向对象的方法
+        """
         print("running")
-        # init不是构造器，只是完成对象的初始化操作,默认调用，可以在创建对象的时候写成参数
 
+    # init不是构造器，只是完成对象的初始化操作，默认调用，可以在创建对象的时候写成参数
     def __init__(self, name, age):
         print("init被调用")
         self.name = name
