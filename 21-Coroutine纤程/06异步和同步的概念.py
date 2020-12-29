@@ -24,7 +24,7 @@ async def foo():
     '''
         RuntimeWarning: coroutine 'sleep' was never awaited
             asyncio.sleep(1)
-        RuntimeWarning: Enable tracemalloc to get the 04-object面向对象 allocation traceback
+        RuntimeWarning: Enable tracemalloc to get the 05-object面向对象 allocation traceback
 
         asyncio.sleep也是一个协程，所以 await asyncio.sleep(x) 就是等待另一个协程
             Coroutine that completes after a given time (in seconds).

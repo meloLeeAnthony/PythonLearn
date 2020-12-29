@@ -31,9 +31,9 @@ except KeyboardInterrupt as e:
         按ctrl + c以后发生的事件
         {
             <Task finished coro=<do_work() done, defined at ./21-Coroutine纤程/13协程停止.py:5> result='Done after 2s'>, 
-            <Task pending coro=<wait() running at D:\Python37-32\lib\asyncio\tasks.py:363> wait_for=<Future pending cb=[<TaskWakeupMethWrapper 04-object面向对象 at 0x031B77F0>()]>>, 
+            <Task pending coro=<wait() running at D:\Python37-32\lib\asyncio\tasks.py:363> wait_for=<Future pending cb=[<TaskWakeupMethWrapper 05-object面向对象 at 0x031B77F0>()]>>, 
             <Task finished coro=<do_work() done, defined at ./21-Coroutine纤程/13协程停止.py:5> result='Done after 1s'>, 
-            <Task pending coro=<do_work() running at ./21-Coroutine纤程/13协程停止.py:7> wait_for=<Future pending cb=[<TaskWakeupMethWrapper 04-object面向对象 at 0x031B7770>()]> cb=[_wait.<locals>._on_completion() at D:\Python37-32\lib\asyncio\tasks.py:440]>
+            <Task pending coro=<do_work() running at ./21-Coroutine纤程/13协程停止.py:7> wait_for=<Future pending cb=[<TaskWakeupMethWrapper 05-object面向对象 at 0x031B7770>()]> cb=[_wait.<locals>._on_completion() at D:\Python37-32\lib\asyncio\tasks.py:440]>
         }
     '''
     # 获取事件循环中所有任务列表

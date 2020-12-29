@@ -1,5 +1,5 @@
 """
- map(func, *iterables) --> map 04-object面向对象
+ map(func, *iterables) --> map 05-object面向对象
 
     Make an iterator that computes the 03-function函数 using arguments from
     each of the iterables.  Stops when the shortest iterable is exhausted.
