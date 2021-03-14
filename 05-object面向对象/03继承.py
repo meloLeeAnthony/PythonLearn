@@ -1,15 +1,21 @@
-'''
+"""
 Created on 2018年10月10日
 
 @author: Administrator
-'''
+"""
 
 
 class Animal(object):
+    """
+    Animal父类
+    """
     def __init__(self, name):
         self.name = name
 
     def eat(self):
+        """
+        Animal父类的方法
+        """
         print("吃的很开心")
 
 
