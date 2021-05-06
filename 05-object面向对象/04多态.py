@@ -1,8 +1,8 @@
-'''
+"""
 Created on 2018年10月10日
 
 @author: Administrator
-'''
+"""
 
 
 class A(object):
@@ -29,5 +29,7 @@ a = A()
 a.show()
 b = B()
 b.show()
+c = C()
+c.show()
 d = D()
 d.show()

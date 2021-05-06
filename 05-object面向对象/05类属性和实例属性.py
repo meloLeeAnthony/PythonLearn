@@ -1,8 +1,8 @@
-'''
+"""
 Created on 2018年10月10日
 
 @author: Administrator
-'''
+"""
 
 
 class Person(object):
