@@ -1,8 +1,8 @@
-'''
+"""
 Created on 2018年10月10日
 
 @author: Administrator
-'''
+"""
 f = None
 try:
     #     print(num)
@@ -31,7 +31,7 @@ class ShortInputException(Exception):
 def main():
     try:
         s = input('请输入 --> ')
-        if len(s) < 3:  # raise引发一个你定义的异常
+        if len(s) < 3:  # raise引发一个自定义的异常
             raise ShortInputException(len(s), 3)
     except ShortInputException as result:  # x这个变量被绑定到了错误的实例
         print('ShortInputException: 输入的长度是 %d,长度至少应是 %d' % (result.length, result.atleast))
