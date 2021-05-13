@@ -1,8 +1,10 @@
-'''
+"""
 Created on 2018年10月9日
 
 @author: Administrator
-'''
+"""
+import os
+
 f = open("b.txt", "rb")
 a = f.readline()
 print(a)
@@ -28,9 +30,7 @@ f = open(r"e:\test.txt", 'w')
 f.write("python is simple")
 f.close()
 
-import os
-
 print(os.name)
 print(os.getcwd())
-print(os.listdir("d:"))
+# print(os.listdir("d:"))
 # os.remove("e:\\test.txt")
