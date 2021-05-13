@@ -22,6 +22,9 @@ print("test3")
 
 
 class ShortInputException(Exception):
+    """
+    自定义异常对象
+    """
     def __init__(self, length, atleast):
         # super().__init__()
         self.length = length
