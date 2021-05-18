@@ -12,10 +12,10 @@ print(repr(os.linesep))  # windows->\r\n   linux-->\n\
 print(os.stat("my02.py"))
 
 # 关于工作目录的操作
-# print(os.getcwd())
+print(os.getcwd())
 # os.chdir("d:")      #改变当前的工作目录为：d:盘根目录
 # os.mkdir("书籍")
-
+print(os.listdir())
 # 创建目录、创建多级目录、删除
 # os.mkdir("书籍")
 # os.rmdir("书籍")   #相对路径都是相对于当前的工作目录
