@@ -1,7 +1,11 @@
+"""
+    TCP客户端Demo测试
+"""
 from socket import socket, AF_INET, SOCK_STREAM
 
 # 创建客户端套接字对象
 client_socket = socket(AF_INET, SOCK_STREAM)
+# 10.20.17.235: 东软101室IP地址
 client_socket.connect(('10.20.17.235', 8989))
 # 客户端发送消息
 client_socket.send('haha'.encode('gb2312'))
