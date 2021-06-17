@@ -2,6 +2,7 @@
 from socket import socket, AF_INET, SOCK_DGRAM
 
 # 创建UDP套接字
+# AF_INET: IPV4协议； SOCK_DGRAM: TCP协议
 udp_socket = socket(AF_INET, SOCK_DGRAM)
 # 创建接收信息的地址
 addr = ('10.20.17.235', 8080)
