@@ -42,7 +42,13 @@ class Person(object):
 
 
 p = Person("abcdefg", 3)
-# print(p.__name)
+# print(p.__name): AttributeError: 'Person' object has no attribute '__name'
+
+'''
+其实隐藏属性只是Python自动为属性改了个名字
+__属性名 -> _类名__属性名; 比如__name -> _Person__name
+'''
+print(p._Person__name)
 print(p.getName())
 p.setName("abcd")
 print(p.getName())
